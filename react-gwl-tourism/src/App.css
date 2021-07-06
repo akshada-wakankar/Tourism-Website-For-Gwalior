@@ -1,0 +1,105 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto";
+}
+
+.home,
+.travel,
+.history,
+.hotels,
+.transport,
+.food,
+.sign-up {
+  display: flex;
+  height: 90vh;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+}
+
+.travel {
+  background-image: url("components/pictures/fair.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 600px;
+  background-repeat: no-repeat;
+  color: white;
+  font-size: 100px;
+}
+.food {
+  background-image: url("components/pictures/samosa.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 600px;
+  background-repeat: no-repeat;
+  color: white;
+  font-size: 100px;
+}
+.transport {
+  background-image: url("components/pictures/train3.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 600px;
+  background-repeat: no-repeat;
+  color: white;
+  font-size: 100px;
+}
+.train {
+  background-image: url("components/pictures/train2.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 600px;
+  background-repeat: no-repeat;
+  color: white;
+  font-size: 70px;
+}
+.plane {
+  background-image: url("components/pictures/plane.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 600px;
+  background-repeat: no-repeat;
+  color: black;
+  font-size: 70px;
+}
+.hotels {
+  background-image: url("components/pictures/pool.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 600px;
+  background-repeat: no-repeat;
+  color: white;
+  font-size: 100px;
+}
+.history {
+  background-image: url("components/pictures/gujarimahal.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 600px;
+  background-repeat: no-repeat;
+  color: white;
+  font-size: 100px;
+}
+.sign-up {
+  background-image: url("components/pictures/fort3.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 600px;
+  background-repeat: no-repeat;
+  color: white;
+  font-size: 100px;
+}
+.hotelsimage {
+  height: 167px;
+  width: 220px;
+  position: relative;
+  padding: 10px;
+}
+.placesimage {
+  height: 200px;
+  width: 300px;
+  position: relative;
+  padding: 10px;
+}
